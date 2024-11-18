@@ -1,3 +1,19 @@
 .body {
   background-color: #050a24;
 }
+.logo {
+  color: #ffffff;
+  font-size: 28pt;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  vertical-align: middle;
+  line-height: 28pt;
+  letter-spacing: 2.8pt;
+  margin-top: 64px;
+  margin-left: 80px;
+}
+
+.logo_dot {
+  color: blue;
+  margin-left: 5px;
+}
