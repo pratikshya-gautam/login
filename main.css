@@ -1,5 +1,6 @@
 .body {
   background-color: #050a24;
+  position: relative;
 }
 .logo {
   color: #ffffff;
@@ -16,4 +17,17 @@
 .logo_dot {
   color: blue;
   margin-left: 5px;
+}
+
+.login_box {
+  background-color: white;
+  min-height: 300px;
+  min-width: 400px;
+  position: absolute;
+  z-index: 5;
+  top: 150px;
+  left: 40%;
+  border-radius: 12px;
+  -webkit-box-shadow: -9px -2px 17px 1px rgba(124, 124, 124, 0.83);
+  box-shadow: -9px -2px 17px 1px rgba(124, 124, 124, 0.83);
 }
