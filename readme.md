@@ -40,3 +40,10 @@ Following code shows 1x3 grid
 <!-- example outline danger button(button.btn.btn-outline-danger) -->
 <button classs="" btn btn-outline-danger>login</button>
 ```
+
+### CSS selector: Class, tag, id
+
+- HTML class: `.class { <!-- your css code --> }`
+- HTML tag: `button {<!-- your css code -->}`
+
+![alt text](./docs/image.png)

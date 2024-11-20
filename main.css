@@ -1,7 +1,10 @@
+body { margin: 0 auto; }
+
 .body {
   background-color: #050a24;
   position: relative;
 }
+
 .logo {
   color: #ffffff;
   font-size: 28pt;
