@@ -16,21 +16,39 @@
   </head>
   <body class="body">
     <div class="logo">BALLA<span class="logo_dot">.</span></div>
-
-    <div class="card p-4 l_card">
-      <div>Login to your account</div>
-      <form action="">
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" />
-
-        <label for="" class="form-label ">Password</label>
-        <input  type="password" name="" id="" placeholder="" />
-
-        <button>Login now</button>
-
-        <p>Don't have an account ?<span>Sign up</span></p>
-      
-    
-  </div>
-
+    <div class="p">
+      <div class="card boxx rounded-5">
+        <div class="heading text-center">Login to your account</div>
+        <form action="">
+          <div class="form-group mt-4">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" />
+          </div>
+          <div class="form-group mt-4">
+            <label
+              for="password"
+              class="form-label d-flex justify-content-between"
+            >
+              <div>Password</div>
+              <div>
+                <a class="btn-link text-decoration-none" href="">Forget?</a>
+              </div>
+            </label>
+            <input type="password" class="form-control" />
+          </div>
+          <div class="form-group mt-4">
+            <button class="btn btn-primary w-100">Login Now</button>
+            <div class="form-text mt-3 text-center">
+              Don't have an account ?<a
+                class="'btn-lin text-decoration-none"
+                href=""
+              >
+                Sign up</a
+              >
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
 </html>

@@ -1,4 +1,6 @@
-body { margin: 0 auto; }
+body {
+  margin: 0 auto;
+}
 
 .body {
   background-color: #050a24;
@@ -20,4 +22,23 @@ body { margin: 0 auto; }
 .logo_dot {
   color: blue;
   margin-left: 5px;
+}
+.p {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.boxx {
+  min-width: 440pt;
+  min-height: 356pt;
+  padding: 48pt 72pt 48pt 72pt;
+}
+
+.heading {
+  font-size: 28pt;
+  font-weight: 700;
+  vertical-align: center;
+  line-height: 28pt;
+  color: #101828;
 }
