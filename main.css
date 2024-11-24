@@ -42,3 +42,35 @@ body {
   line-height: 28pt;
   color: #101828;
 }
+.left-box {
+  height: 100vh;
+  background-color: gainsboro;
+}
+.right-box {
+  height: 100vh;
+  background-color: whitesmoke;
+}
+.left-title {
+  /* border: 1px solid red; */
+  min-height: 10vh;
+}
+
+.left-logo {
+  /* border: 1px solid red; */
+  min-height: 70vh;
+  align-content: center;
+  text-align: left;
+  padding-left: 35vh;
+}
+
+.left-footer {
+  /* border: 1px solid red; */
+  min-height: 20vh;
+}
+
+.bold-title {
+  font-weight: bolder;
+}
+.b-sign-in {
+  margin-right: 8px;
+}
