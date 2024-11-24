@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login 2</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="row">
+      <div class="col left-box p-sm-5">
+        <div class="row flex-column">
+          <div class="col left-title">
+            <h3 class="mt-sm-4">Welcome!</h3>
+          </div>
+          <div class="col left-logo">
+            <h3>BOOTSTRAP</h3>
+            <h3 class="bold-title">BRAIN</h3>
+          </div>
+          <div class="col left-footer">
+            <span class="bold-title">Not a member yet?</span
+            ><span> Register now</span>
+          </div>
+        </div>
+      </div>
+      <div class="col right-box">
+        <div class="row flex-column">
+          <div class="col">
+            <h2 class="p-5">Log in</h2>
+          </div>
+          <div class="col">
+            <form class="p-5" action="">
+              <div class="form-group">
+                <label for="email" class="form-label bold-title">Email</label>
+                <input type="email" class="form-control" />
+              </div>
+              <div class="mt-4 form-group">
+                <label for="password" class="form-label bold-title"
+                  >Password</label
+                >
+                <input type="password" class="form-control" />
+                <div class="mt-3">
+                  <input class="mr-2" type="checkbox" name="" id="" />
+                  Keep me logged in.
+                </div>
+              </div>
+              <div class="form-group mt-4">
+                <button class="btn btn-primary w-100 btn-lg">Login now</button>
+                <div class="mt-2 text-end">
+                  <p>Forget password</p>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col p-5">
+            <p>Or sign in with</p>
+            <div>
+              <button class="btn btn-outline-primary b-sign-in">
+                <i class="bi bi-google"></i>
+                Google
+              </button>
+              <button class="btn btn-outline-primary b-sign-in">
+                <i class="bi bi-facebook"></i>
+                Facebook
+              </button>
+              <button class="btn btn-outline-primary b-sign-in">
+                <i class="bi bi-twitter"></i>
+                Twitter
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
