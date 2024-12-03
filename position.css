@@ -1,0 +1,36 @@
+.row {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  row-gap: 50px;
+  position: relative;
+}
+.float-box-img {
+  height: 200px;
+  width: 200px;
+}
+.float-box {
+  position: absolute;
+  top: 169px;
+  z-index: 0;
+}
+
+.float-box-2 {
+  position: absolute;
+  /* right: 0; */
+  top: 657px;
+  /* left: 10px; */
+  z-index: 2;
+}
+.big-box {
+  border: 3px solid red;
+  margin-bottom: 300px;
+  min-height: 100px;
+  padding: 60px;
+  text-align: center;
+  background: url('./img/pattern-1.png') center, rgba(235, 235, 235, 0);
+  background-repeat: repeat-x repeat-y;
+}
+.second {
+  padding-left: 210px;
+}
