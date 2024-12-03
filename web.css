@@ -1,0 +1,10 @@
+.body {
+  background-color: wheat;
+  display: flex;
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
+li {
+  font-size: 18px;
+}
