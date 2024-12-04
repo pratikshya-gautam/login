@@ -4,6 +4,7 @@
   /* border: 1px solid red; */
   justify-content: space-between;
   column-gap: 80px;
+  color: rgb(157, 40, 189);
 }
 .subtitle {
   font-size: 24px;
