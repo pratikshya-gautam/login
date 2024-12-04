@@ -1,0 +1,14 @@
+body {
+  background-color: rgb(239, 241, 243);
+  width: 960px;
+  margin: 0 auto;
+}
+.title {
+  font-weight: 900;
+  font-size: 36px;
+}
+.button {
+  background-color: rgb(168, 248, 221);
+  outline: none;
+  color: #000000;
+}
